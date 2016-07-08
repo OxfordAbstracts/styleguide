@@ -1,4 +1,4 @@
-# Living Style Guide
+# [Living Style Guide](https://app.frontify.com/d/0nvkJOFPhUB2/ui-library)
 
 ## Why?
 
@@ -21,15 +21,13 @@ Without any guiding principles for writing CSS for this project there are a numb
 
 ## How?
 
-#### With Frontify
+#### With [Frontify](https://frontify.com/)
 
 The files within this repository are simply a proving ground for the CSS. The real living style-sheet can be found at the link below. 
 
 With a free account we can have 100mb of data and up to 3 editors. If you want access just let me know. 
 
 Frontify also allows us to define all other parts of a style guide, not just components. 
-
-https://app.frontify.com/d/0nvkJOFPhUB2/ui-library
 
 ---
 
