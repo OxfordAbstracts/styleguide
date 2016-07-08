@@ -1,6 +1,13 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway:500,700,900|Roboto';
 
+html {
+    font-size: 16px;
+}
+
+
 /* Buttons */
+/********************************/
+
 .btn {
     border-width: 1px;
     border-style: solid;
@@ -8,7 +15,7 @@
     border-radius: 3px;
     /* label: */
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem; /* 14px */
     font-weight: 500;
     letter-spacing: 0.4px;
     text-decoration: none;
@@ -18,11 +25,15 @@
     cursor: pointer;
 }
 
+/* SIZES */
+
 .btn--sm {
-    padding: 7px 28px;
+    padding: 0.5em 2em;
     /* label: */
-    line-height: 16px;
+    line-height: 1.1428571429em;
 }
+
+/* HIERARCHY */
 
 .prim {
     background: #00AA61;
