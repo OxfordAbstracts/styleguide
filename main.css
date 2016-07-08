@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:500,700,900|Roboto';
+
+/* Buttons */
+.btn {
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: inset 0px -1px 2px 0px rgba(0,0,0,0.50), inset 0px 1px 2px 0px #FFFFFF;
+    border-radius: 3px;
+    /* label: */
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: #000000;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn--sm {
+    padding: 7px 28px;
+    /* label: */
+    line-height: 16px;
+}
+
+.prim {
+    background: #00AA61;
+    border-color: #333333;
+    /* label: */
+    color: #FFFFFF;
+}
+.second {
+    background: #DBDBDB;
+    border-color: #808080;
+}
+.tert {
+    background: #B2E3CE;
+    border-color: #808080;
+}
