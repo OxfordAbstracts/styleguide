@@ -45,6 +45,12 @@ Consistent CSS patterns make for easier reading, maintenance, and implementation
 
 I want us to adopt this methodology and offer my own services in doing so.
 
+[Harry Roberts says:](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
+
+> [Developer confidence]is the main reason we end up with bloated code bases, full of legacy and unknown CSS that we daren't touch. We lack the confidence to be able to work with and modify existing styles because we fear the consequences of CSS' globally operating and leaky nature. Almost all problems with CSS at scale boil down to confidence (or lack thereof): People don't know what things do any more. People daren't make changes because they don't know how far reaching the effects will be.
+
+---
+
 
 #### A Note on Sizing
 
@@ -60,6 +66,6 @@ So, I suggest a system similar to [this one](https://css-tricks.com/rems-ems/) w
 - Block level: **declared in `rem`**
 - Element level: **declared in `em`**
 
-This works well for our project because it's design pattern is "component-focused" with many repeated "sections" and "cards".
+This works well for our project because it's design pattern is "component-focused" with many repeated "sections" and "cards". It also allows for very light, but holistic changes to be made: changing the `font-size` of a *block* from `1rem` to `0.75rem` (with a media query) will proportionally change all of the dependent elements within to the same degree.
 
 
