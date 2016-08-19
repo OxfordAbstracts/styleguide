@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:300,500,700,900|Roboto';
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,500,700,900|Roboto';
 
 html {
     font-size: 16px;
@@ -78,7 +78,7 @@ li.nav__item {
 li.nav__item > a {
     display: inline-block;
     font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     
     line-height: 1.16666666em; /* 21px */
     padding: 0.8333333333em 0.777777777em 0.777777777em; /* 15px TOP */  /* 14px */
