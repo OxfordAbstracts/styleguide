@@ -47,7 +47,7 @@ I want us to adopt this methodology and offer my own services in doing so.
 
 [Harry Roberts says:](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
 
-> [Developer confidence]is the main reason we end up with bloated code bases, full of legacy and unknown CSS that we daren't touch. We lack the confidence to be able to work with and modify existing styles because we fear the consequences of CSS' globally operating and leaky nature. Almost all problems with CSS at scale boil down to confidence (or lack thereof): People don't know what things do any more. People daren't make changes because they don't know how far reaching the effects will be.
+> [Developer confidence] is the main reason we end up with bloated code bases, full of legacy and unknown CSS that we daren't touch. We lack the confidence to be able to work with and modify existing styles because we fear the consequences of CSS' globally operating and leaky nature. Almost all problems with CSS at scale boil down to confidence (or lack thereof): People don't know what things do any more. People daren't make changes because they don't know how far reaching the effects will be.
 
 ---
 
