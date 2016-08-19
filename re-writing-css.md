@@ -4,7 +4,7 @@
 
 CSS cascades, but that doesn't mean you should overwrite styles by default. Go back, check, what can be abstracted out of a class, how can I write less CSS. 
 
-###### *I am **not** encouraging the use of DRYCSS, [which is a thing](http://simianuprising.com/2012/03/07/video-of-my-dry-css-talk/), and obviously encourages the dryest css, but I do not feel it suits our project.*
+###### *I am not encouraging the use of DRYCSS, [which is a thing](http://simianuprising.com/2012/03/07/video-of-my-dry-css-talk/), and obviously encourages the dryest css, but I do not feel it suits our project.*
 
 This is not dry:
 
@@ -48,7 +48,7 @@ This is not dry:
   font-size: 1.125em;
 }
 ```
-*(I shit you not, I found this in app.css)*
+###### *(I shit you not, I found this in app.css)*
 
 
 This is dry:
@@ -224,7 +224,11 @@ Which means I can read that partial and not only know where to look to change it
 
 ### Avoid Descendant Selectors
 
-so stuff like this:
+This is another principle of BEM - and it's okay to break it sometimes. But really try to avoid making your style rules rely on one another. In doing so you're basically saying:
+
+> I assume the markup structure will always be the same
+
+so don't do stuff like this:
 
 ```
 .manage-users-row .manage-users-cell {
