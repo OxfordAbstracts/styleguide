@@ -95,6 +95,8 @@ Anyway:
 
 A block is a high-level element or group of elements. It can be simple or complex and one block can contain others.
 
+Blocks are independent women and don't need no other rules to tell them what to do or where to go. They have unique, context-free names. 
+
 #### What kind of names do blocks have?
 
 Blocks are **not to be in context**. Don't call you blocks things like:
@@ -231,8 +233,20 @@ This is another principle of BEM - and it's okay to break it sometimes. But real
 so don't do stuff like this:
 
 ```
-.manage-users-row .manage-users-cell {
+.manage-users-row .manage-users-cell {}
+.mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen) > .mdl-layout__header {}
+div.dataTables_wrapper div.dataTables_filter {}
 ```
+
+### Downsides to BEM
+
+**Verbose and repetitive HTML.**
+
+`<div class="dialogue dialogue--large dialogue--warning"></div>`
+
+Nothing really to say about this one. It's just, yeah it's gonna happen.
+
+One way to avoid this is a *variation* called [BEVM](https://www.viget.com/articles/bem-sass-modifiers) which utilisies Sass. I don't recommend we learn try to fly before we've learned to walk, however. If this problem actually starts to keep you up at night, then let's talk about BEVM.
 
 ## [Actually Doing the re-writing](/action-plan.md)
 
