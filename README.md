@@ -37,7 +37,7 @@ Frontify also allows us to define all other parts of a style guide, not just com
 
 I suggest we modularise the stylesheet in this repository. Using [RawGit](https://rawgit.com/) I have generated a CDN link to this stylesheet. This link connects the stylesheet here to Frontify.
 
-#### Re-writing CSS: Block, Element, Modifier
+#### [Re-writing CSS: Block, Element, Modifier](/blob/master/re-writing-css.md)
 
 Consistent CSS patterns make for easier reading, maintenance, and implementation. They also reinforce the design patterns into the code.
 

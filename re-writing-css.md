@@ -230,7 +230,7 @@ so stuff like this:
 .manage-users-row .manage-users-cell {
 ```
 
-## [Actually Doing the re-writing]()
+## [Actually Doing the re-writing](/action-plan.md)
 
 It's tricky at first and may take some getting used to - but the work will pay off down the line. 
 
