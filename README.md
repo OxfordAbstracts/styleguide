@@ -1,5 +1,7 @@
 # [Living Style Guide](https://app.frontify.com/d/0nvkJOFPhUB2/ui-library)
 
+*Living Style Guide Last updated 3 Nov 2016*
+
 ## Why?
 
 #### Design Inconsistencies
