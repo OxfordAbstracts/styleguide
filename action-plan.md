@@ -244,7 +244,7 @@ This is what I have produced:
 
 Notice, to enforce semantic markup I have changed some `<h6>` elements into span elements since their UI purpose is to be a label or data, not a headline. 
 
-I can further refactor the CSS now that there is no need to override the useragent stylesheet's margin on headline elements as well as short-handing the margin declarations on the block.
+I can further refactor the CSS now that there is no need to override the useragent stylesheet's margin on headline elements as well as short-handing some margin and removing unnecessary padding declarations.
 
 ### Before:
 
@@ -304,8 +304,6 @@ I can further refactor the CSS now that there is no need to override the userage
 .card__body {}
 .card__subtitle {
   height: 1.5em;
-  padding-top: 0;
-  padding-bottom: 0;
   margin: 0;
 }
 .card__label {
@@ -319,6 +317,6 @@ I can further refactor the CSS now that there is no need to override the userage
 }
 ```
 
-## It looks worse than before
+## The app visually looks worse than before
 
-Yes that's because we've only just begun. Once our CSS tools are all in place we can come back and make it look like it's supposed to!
+Yes that's because we've only just begun. Once our CSS tools are all in place we can **come back and make it look like it's supposed to!**

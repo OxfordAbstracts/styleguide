@@ -1,4 +1,4 @@
-# Re-writing CSS
+# Re-writing CSS (Writing better CSS)
 
 ## DRY
 
