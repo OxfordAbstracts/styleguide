@@ -48,7 +48,7 @@ This is not dry:
   font-size: 1.125em;
 }
 ```
-###### *(I shit you not, I found this in app.css)*
+###### *(I kid you not, I found this in app.css)*
 
 
 This is dry:
