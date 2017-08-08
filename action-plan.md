@@ -320,3 +320,9 @@ I can further refactor the CSS now that there is no need to override the userage
 ## The app visually looks worse than before
 
 Yes that's because we've only just begun. Once our CSS tools are all in place we can **come back and make it look like it's supposed to!**
+
+
+
+
+
+All images taken from ["BEM: A New Front-End Methodology" - By Varvara Stepanova](https://www.smashingmagazine.com/2012/04/a-new-front-end-methodology-bem/)
